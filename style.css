@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+height: 100vh;
+margin: 0;
+padding: 0;
+
+}
+
+.bg-image{
+    background-image: url("background.jpg");
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-text{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+
+}
+
+.left {
+    display: flex;
+    padding: 40px;
+}
+
+.left h1 {
+    color: beige;
+
+    size: 10px 20px;
+    padding: 0px;
+    margin: 10px;
+
+
+}
+
+.left img {
+    width: 44px;
+    height: 44px;
+}
+
+.right {
+    padding: 60px;
+}
+
+.right button {
+    color: bisque;
+    background-color: rgb(117, 99, 72);
+   font-size: 1.5rem;
+    border-radius: 22px;
+    cursor: pointer;
+    width: 120%;
+}
+
+.contact {
+  font-size: 150%;
+}
+.bg-text .first{
+    width: 60%;
+    height: 60%;
+    padding: 200px;
+    margin: 0px;
+}
+.first h1{
+    font-size: 5rem;
+    padding: 12px;
+    margin: 24px;
+
+}
+.first p{
+    font-size: 2rem;
+    padding: 2px;
+    margin: 0px;
+}
+.btn button{
+     font-size: 2rem;
+    background-color: rgb(150, 146, 139);
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 25px;
+    margin: 25px;
+    width: 28%;
+    
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200vh;
+    height: 80vh;
+    background-color: rgb(163, 142, 117);
+}
+
+.secondright{
+    padding: 170px;
+
+}
+.secondimg img{
+    width: 79%;
+    padding: 28px;
+}
+.box{
+    padding: 78px;
+    margin: -15px;
+    height: 23%;
+}
+.box h1{
+    margin-top: 10%;
+    margin-left: 10%;
+    padding-top: 10%;
+}
+.box p{
+    padding: 15px;
+}
+.box button{
+    background-color: #b2b881;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.third{
+    width: 100%;
+    height: 20%;
+    background-color: #855415;
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 60px;
+    justify-content: space-evenly;
+}
+.l{
+    display: flex;
+    padding: 40px;
+}
+.l img{
+    width: 44px;
+    height: 44px;
+}
+.footer span{
+    padding: 40px;
+}
